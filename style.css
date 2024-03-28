@@ -13,9 +13,21 @@ body {
   width: 100%;
 }
 
-.container-left {
+.gap, .icon-design-holder, .container-left-create-team{
   display: flex;
   align-items: center;
+  gap: 5px;
+}
+
+.space-between, .container-left-folder{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-left {
+  /* display: flex;
+  align-items: center; */
   flex-direction: column;
   /* border: 1px solid red; */
   width: 20%;
@@ -31,6 +43,12 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+
+}
+
+.container-left-design{
+  padding: 0px 5px;
+  box-sizing: border-box;
 }
 
 .container-left-nav-left-side{
@@ -65,10 +83,21 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px;
-
+}
+.text-x{
+  color: grey;
 }
 
 
-.text-x{
+.container-left-create-team, .container-left-folder{
   color: grey;
+  margin: 5px 0px;
+  font-size: 12px;
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+
+
+.container-left-folder{
+  margin: 20px 0px 0px  0px ;
 }
