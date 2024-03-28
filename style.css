@@ -101,3 +101,14 @@ body {
 .container-left-folder{
   margin: 20px 0px 0px  0px ;
 }
+
+.product-items{
+  border: 1px solid red;
+  padding-left: 10%;
+  color: grey;
+}
+
+.product-items > h6{
+  margin: 8px 0px;
+  color: rgb(89, 89, 89);
+}
