@@ -16,6 +16,7 @@ body {
 .container-left {
   display: flex;
   align-items: center;
+  flex-direction: column;
   /* border: 1px solid red; */
   width: 20%;
   height: 100%;
@@ -25,7 +26,7 @@ body {
   padding: 20px;
 }
 
-.container-left-nav{
+.container-left-nav, .container-left-design{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,4 +54,21 @@ body {
 }
 .container-left-nav-profile{
   width: 30px;
+}
+
+.icon-design-holder{
+  font-size: 12px;
+  margin: 5px 0px;
+  color: rgba(0, 0, 0, 0.800);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+}
+
+
+.text-x{
+  color: grey;
 }
