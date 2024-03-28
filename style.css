@@ -148,7 +148,6 @@ body {
 .container-right {
   padding: 20px;
   width: 100%;
-  width: 800px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -183,7 +182,10 @@ input {
 }
 
 .content {
-  margin-top: 30px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  /* padding: 20px; */
 }
 
 .brand {
@@ -191,12 +193,133 @@ input {
   font-weight: 600;
   font-style: normal;
   font-size: 12px;
-  width: 120px;
-  border: 2px solid red;
+  width: 150px;
+  /* border: 2px solid red; */
 }
 
 .brand-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+.svg-icon{
+  width: 20px;
+  border-radius: 6px;
+}
+
+.icon-h6{
+  font-size: 10px;
+}
+
+.description-text{
+  color: grey;
+  height: max-content;
+  font-size: 12px;
+}
+.description > h6{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+/* .members{
+} */
+.members-text{
+  height: 18px;
+  text-align: center;
+}
+
+.members-row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.memb-img {
+  width: 15px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  margin-right: -0.5rem;
+}
+.cat-row1{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 5px;
+}
+
+.automation{
+  color: #7C54D0;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0px 3px;
+}
+
+.e-commerce{
+  color: #9D6A42;
+  background-color: #FEE9D8;
+}
+
+.b2b, .mobile{
+  color: #B09C61;
+  background-color: #FEF0C1;
+}
+
+.saas{
+  color: #4B8C6F;
+  background-color: #D4F6DD;
+}
+
+.b2c{
+  color: #99A45D;
+  background-color: #F4FCC5;
+}
+
+.technology{
+  color: #4c70b3;
+  background-color: #E0EBFE;
+}
+
+.finance{
+  color: #927A2F;
+  background-color: #FFEFC2;
+}
+
+.publishing{
+  color: #A35A92;
+  background-color: #FDE7EC;
+}
+
+.web-service{
+  color: #45a9c7;
+  background-color: #D9F3FC;
+}
+
+.tags-text{
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: gray;
+}
+
+.tommorrow{
+  color: #40899f;
+  background-color: #DBF4FC;
+}
+
+.no-contact{
+  color: #b36e6d;
+  background-color: #FFE8E6;
+}
+
+.next-month{
+  color: grey;
 }
