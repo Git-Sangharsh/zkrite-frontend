@@ -624,9 +624,7 @@ input {
 }
 
 @media (max-width: 680px){
-  .container{
-    border: 1px solid red;
-  }
+
 
   .container-right {
     padding: 10px 10px 0px 10px;
