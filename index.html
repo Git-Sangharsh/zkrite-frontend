@@ -97,48 +97,65 @@
                     Legal
                 </div>
             </div>
-            <div class="container-left-design container-left-bottom">
-                <div class="icon-design-holder">
-                    <i class="fa-solid fa-user-plus"></i>
-                    Invite teammates
-                </div>
-            </div>
-            <div class="container-left-design">
-                <div class="icon-design-holder">
-                    <i class="fa-regular fa-circle-question"></i>
-                    Help and first steps
-                </div>
-                <i class="fa-solid fa-cloud text-x icon-x"></i>
-            </div>
-            <div class="container-left-design">
-                <div class="icon-design-holder">
-                    <i class="fa-solid fa-7 icon-x"></i>
-                    days left on trail
-                </div>
-                <div class="container-left-design-btn">
-                    Add billing
-                </div>
-            </div>
+                    <div class="container-left-design container-left-bottom">
+                        <div class="icon-design-holder">
+                            <i class="fa-solid fa-user-plus"></i>
+                            Invite teammates
+                        </div>
+                    </div>
+                    <div class="container-left-design">
+                        <div class="icon-design-holder">
+                            <i class="fa-regular fa-circle-question"></i>
+                            Help and first steps
+                        </div>
+                        <i class="fa-solid fa-cloud text-x icon-x"></i>
+                    </div>
+                    <div class="container-left-design">
+                        <div class="icon-design-holder text-100">
+                            <i class="fa-solid fa-7 icon-x"></i>
+                            days left on trail
+                        </div>
+                        <div class="container-left-design-btn">
+                            Add billing
+                        </div>
+                    </div>
         </div>
+
 
         <!-- Right Side Container -->
         <div class="container-right">
             <div class="container-right-nav">
                 <h4>Products</h4>
                 <div class="container-right-nav-right">
-                    <i class="fa-solid fa-magnifying-glass color-icon" ></i>
-                    <input type="text" placeholder="Search for..." >
-                    <i class="fa-regular fa-comments color-icon"></i>
-                    <i class="fa-solid fa-gear color-icon"></i>
+                    <div class="hold-input">
+                        <i class="fa-solid fa-magnifying-glass color-icon" ></i>
+                        <input class="main-input" type="text" placeholder="Search for..." onclick="toggleSearchList()"
+                        oninput="filterSearchList()">
+                        <ul class="search-list" id="searchList">
+                            <li> <img src="./assets/spotify.svg" alt="" class="svg-icon"> Spotify</li>
+                            <li> <img src="./assets/youtube.svg" alt="" class="svg-icon"> Youtube</li>
+                            <li> <img src="./assets/instagram.svg" alt="" class="svg-icon"> Instagram</li>
+                        </ul>
+                        <i class="fa-regular fa-comments color-icon"></i>
+                        <i class="fa-solid fa-gear color-icon"></i>
+                    </div>
                 </div>
             </div>
             <div class="container-rigt-headers">
                 <div class="container-coloumn-1">
-                    <h6 class="container-header">
-                        <i class="fa-solid fa-table-cells-large"></i>
-                        All Brands
-                        <i class="fa-solid fa-caret-down"></i>
-                    </h6>
+                    <div class="dropdown-container">
+                        <h6 class="container-header container-header-all-brands" onmouseover="showDropdown()" onclick="toggleDropdown()">
+                            <i class="fa-solid fa-table-cells-large"></i>
+                            All Brands
+                            <i class="fa-solid fa-caret-down"></i>
+                        </h6>
+                        <div id="dropdown-content" >
+                            <h6 class="drop"> <img class="svg-icon"  src="./assets/wix.svg" alt=""> Wix</h6>
+                            <h6 class="drop"> <img class="svg-icon" src="./assets/shopify.svg" alt=""> Shopify</h6>
+                            <h6 class="drop"> <img class="svg-icon" src="./assets/disney.svg" alt=""> Disney</h6>
+                        </div>
+                    </div>
+
                     <h6 class="container-header">
                         Desk
                         <i class="fa-solid fa-caret-down"></i>
@@ -250,7 +267,7 @@
                     </div>
                 </div>
                 <div class="description">
-                    <h4 class="description-text">Description</h4>
+                    <h4 class="description-text text-x">Description</h4>
                     <h6>Develop a personalized fit...</h6>
                     <h6>Introduced a Cloud-basd...</h6>
                     <h6>Develop a mobile applica...</h6>
@@ -407,6 +424,20 @@
                         <h6 class="cat-text automation next-month">Next month</h6>
                     </div>
                 </div>
+            </div>
+            <div class="calculation">
+                <h6>10 Count</h6>
+                <h6>+ Add Calculation</h6>
+                <h6>+ Add Calculation</h6>
+                <h6>+ Add Calculation</h6>
+                <h6>+ Add Calculation</h6>
+            </div>
+            <div class="container-right-footer">
+                <h6><i class="fa-solid fa-3 three"></i> Selected</h6>
+                <h6><i class="fa-solid fa-box-archive"></i> Archive</h6>
+                <h6 class="delete"><i class="fa-solid fa-trash"></i> Delete</h6>
+                <h6><i class="fa-solid fa-caret-down"></i>More</h6>
+
             </div>
         </div>
     </div>
