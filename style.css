@@ -624,8 +624,6 @@ input {
 }
 
 @media (max-width: 680px){
-
-
   .container-right {
     padding: 10px 10px 0px 10px;
   }
@@ -642,6 +640,25 @@ input {
     height: 32px;
   }
 
+}
+
+
+@media (max-width: 320px){
+  .icon-design-holder,
+  .description > h6,
+  .cat-row1 > h6,
+  .tags-text,
+  .calculation {
+    font-size: 8px;
+  }
+
+  .container-header{
+    width: max-content;
+  }
+
+  .container-right{
+    padding-bottom: 3px0;
+  }
 
 
 }
