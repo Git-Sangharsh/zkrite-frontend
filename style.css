@@ -566,11 +566,11 @@ input {
     display: none;
   }
 
-  .container-right{
+  .container-right {
     padding: 10px 10px 500px 10px;
   }
 
-  .container-right-footer{
+  .container-right-footer {
     position: absolute;
     display: flex;
     align-items: center;
@@ -579,4 +579,71 @@ input {
     bottom: 10px;
     left: 30%;
   }
+  .content {
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .brand {
+    width: 100%;
+  }
+
+  .brand,
+  .description,
+  .members,
+  .categories,
+  .tags,
+  .next-meeting {
+    width: 100%;
+  }
+
+  .description > h6 {
+    width: 120px;
+  }
+  .members, .cat-row1 {
+    width: min-content;
+  }
+  .members-row {
+    justify-content: center;
+  }
+  .calculation {
+    margin-top: 20px;
+  }
+
+  .box-center, .cat-row1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-x{
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 680px){
+  .container{
+    border: 1px solid red;
+  }
+
+  .container-right {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .icon-design-holder,
+  .description > h6,
+  .cat-row1 > h6,
+  .tags-text,
+  .calculation {
+    font-size: 8px;
+  }
+
+  .description > h6{
+    height: 32px;
+  }
+
+
+
 }
