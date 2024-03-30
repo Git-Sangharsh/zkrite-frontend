@@ -516,6 +516,8 @@ input {
     display: flex;
     align-items: center;
   }
+
+
 }
 
 @media (max-width: 990px) {
@@ -627,6 +629,9 @@ input {
     max-width: 790px; /* Set maximum width to match main-container */
   }
 
+  .container-left-design{
+    min-width: 110px;
+  }
 
 }
 
@@ -654,6 +659,18 @@ input {
     height: 32px;
   }
 
+  .container-header-all-brands{
+    min-width: 84px;
+  }
+
+  html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+  }
 }
+
+
 
 
