@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome CDN -->
     <script
     src="https://kit.fontawesome.com/680190e163.js"
     crossorigin="anonymous"
@@ -17,6 +19,7 @@
     <div class="container">
         <!-- Left Side Conatiner -->
         <div class="container-left">
+            <!--  Left Nav of the Container-Left -->
             <nav class="container-left-nav">
                 <div class="container-left-nav-left-side">
                 <img class="container-left-nav-logo" src="./assets/logo.png" alt="">
@@ -63,6 +66,7 @@
                 </div>
                 <i class="fa-solid fa-caret-up text-x"></i>
             </div>
+            <!-- Added Here Hover Animation -->
             <div class="product-items">
                 <h6>Roadmap</h6>
                 <h6>Feedback</h6>
@@ -97,6 +101,7 @@
                     Legal
                 </div>
             </div>
+                <!-- Footer of Left-Container -->
                     <div class="container-left-design container-left-bottom">
                         <div class="icon-design-holder">
                             <i class="fa-solid fa-user-plus"></i>
@@ -124,13 +129,16 @@
 
         <!-- Right Side Container -->
         <div class="container-right">
+            <!-- Right Nav of the Container-Right -->
             <div class="container-right-nav">
                 <h4>Products</h4>
                 <div class="container-right-nav-right">
                     <div class="hold-input">
                         <i class="fa-solid fa-magnifying-glass color-icon" ></i>
+                        <!-- Added Search Filter On Input -->
                         <input class="main-input" type="text" placeholder="Search for..." onclick="toggleSearchList()"
                         oninput="filterSearchList()">
+                        <!-- This DropDown Will Shown onClick on main-input -->
                         <ul class="search-list" id="searchList">
                             <li> <img src="./assets/spotify.svg" alt="" class="svg-icon"> Spotify</li>
                             <li> <img src="./assets/youtube.svg" alt="" class="svg-icon"> Youtube</li>
@@ -141,6 +149,7 @@
                     </div>
                 </div>
             </div>
+            <!-- This is Headers of the right-container -->
             <div class="container-rigt-headers">
                 <div class="container-coloumn-1">
                     <div class="dropdown-container">
@@ -149,6 +158,7 @@
                             All Brands
                             <i class="fa-solid fa-caret-down"></i>
                         </h6>
+                        <!-- This Is DropDown Content On Mouse Hover -->
                         <div id="dropdown-content" >
                             <h6 class="drop"> <img class="svg-icon"  src="./assets/wix.svg" alt=""> Wix</h6>
                             <h6 class="drop"> <img class="svg-icon" src="./assets/shopify.svg" alt=""> Shopify</h6>
@@ -184,6 +194,7 @@
                     </h6>
                 </div>
             </div>
+            <!-- This is Contenet This Include Brand, Description, Members, Categories, Tags, Next-Metting Etc. -->
             <div class="content">
                 <div class="brand">
                     <div class="brand-header text-x">
@@ -443,6 +454,7 @@
     </div>
 </div>
 
+<!-- Script JS -->
     <script src="script.js"></script>
 </body>
 </html>
