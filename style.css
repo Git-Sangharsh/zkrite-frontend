@@ -653,11 +653,6 @@ input {
   }
 
 }
-@media (max-width: 640px){
-  .next-meeting-header{
-    width: 73px;
-    }
-}
 
 
 @media (max-width: 680px){
@@ -696,6 +691,8 @@ input {
   }
 }
 
-
-
-
+@media (max-width: 640px){
+  .next-meeting-header{
+    width: 73px;
+    }
+}
