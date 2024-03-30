@@ -170,7 +170,6 @@ body {
   font-weight: 600;
   font-style: normal;
   position: relative;
-  border-bottom: 1px solid red;
 }
 
 .container-right-nav {
@@ -621,14 +620,28 @@ input {
     text-align: center;
   }
 
+  .container-right {
+    padding: 10px 10px 20px 10px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    max-width: 790px; /* Set maximum width to match main-container */
+  }
+
 
 }
 
 @media (max-width: 680px){
   .container-right {
     padding: 10px 10px 0px 10px;
+    overflow-y: hidden;
+    box-sizing: border-box;
   }
 
+
+  .content{
+    box-sizing: border-box;
+
+  }
   .icon-design-holder,
   .description > h6,
   .cat-row1 > h6,
